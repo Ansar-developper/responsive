@@ -1,0 +1,43 @@
+.img-fluid{
+  height:auto;
+  max-width: 100%;
+}
+.hi{
+  margin-left: -220px;;
+}
+.body{
+  overflow-x:hidden ;
+}
+.hello{
+  background-color: #f7f5f5;
+}
+.samoh{
+  margin-left:180px;
+}
+.para{
+  line-height: 1.5;
+  font-size: 34px;
+}
+
+
+
+@media screen and (max-width: 912px) {
+  .para {
+      font-size: 16px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .para {
+      font-size: 22px;
+  }
+}
+@media screen and (max-width: 640px){
+  .hello,.brands{
+    display:none ;
+  }
+}
+@media screen and (max-width: 768px){
+  .hello,.brands{
+    display:none ;
+  }
+}
